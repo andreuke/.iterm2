@@ -31,7 +31,7 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop</string>
+	<string>~</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -66,11 +66,11 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 376 620 392 0 0 1440 877 </string>
+	<string>-552 1398 620 392 -1202 900 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1412 1364 1016 512 718 900 1920 1057 </string>
+	<string>398 351 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>718 1505 570 452 718 900 1920 1057 </string>
+	<string>0 0 1440 900 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>-934 1079 570 452 -1202 900 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -2031,11 +2031,17 @@
 	<key>NoSyncInstallationId</key>
 	<string>0C67202B-8549-4A36-B9FC-A65BF754C47D</string>
 	<key>NoSyncLastTipTime</key>
-	<real>531318177.19278502</real>
+	<real>531759577.94618398</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>528968581.98357302</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
@@ -2051,6 +2057,8 @@
 		<string>0009</string>
 		<string>0010</string>
 		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
 	</array>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>1</integer>
@@ -2088,7 +2096,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/apiscitello/Desktop</string>
+	<string>/Users/apiscitello/.iterm2</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -2098,8 +2106,10 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-11-02T12:22:57Z</date>
+	<date>2017-11-13T10:03:24Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>TabStyle</key>
 	<integer>0</integer>
@@ -2110,6 +2120,6 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.1.4</string>
+	<string>3.1.5</string>
 </dict>
 </plist>
