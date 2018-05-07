@@ -12,8 +12,12 @@
 	<integer>1</integer>
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
+	<key>ConvertDosNewlines</key>
+	<false/>
 	<key>Default Bookmark Guid</key>
 	<string>3D70F2D5-BA1B-4BC7-8F33-D6A82C4302E5</string>
+	<key>EscapeShellCharsWithBackslash</key>
+	<false/>
 	<key>HideTab</key>
 	<true/>
 	<key>Hotkey</key>
@@ -66,15 +70,19 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>-552 1398 620 392 -1202 900 1920 1057 </string>
+	<string>-850 289 620 392 -1080 -840 1080 1897 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>171 92 606 469 0 0 1440 900 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>398 351 796 473 0 0 1440 877 </string>
+	<string>415 358 796 473 0 0 1440 877 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1440 900 0 0 1440 877 </string>
+	<string>0 714 1920 344 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-934 1079 570 452 -1202 900 1920 1057 </string>
+	<string>-722 1490 570 452 -1202 900 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>-955 1012 570 452 -1202 900 1920 1057 </string>
+	<string>-1200 900 1920 1057 -1202 900 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>-913 961 570 452 -1202 900 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -1412,7 +1420,7 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -2026,6 +2034,8 @@
 			<string>/Users/apiscitello</string>
 		</dict>
 	</array>
+	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
@@ -2036,6 +2046,8 @@
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncNewWindowOrTabFromTmuxOpensTmux</key>
+	<false/>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -2062,6 +2074,18 @@
 	</array>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>1</integer>
+	<key>PasteSpecialChunkDelay</key>
+	<real>0.01</real>
+	<key>PasteSpecialChunkSize</key>
+	<integer>1024</integer>
+	<key>PasteSpecialRegex</key>
+	<string>\n</string>
+	<key>PasteSpecialSubstitution</key>
+	<string>,</string>
+	<key>PasteSpecialUseRegexSubstitution</key>
+	<true/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -2106,15 +2130,21 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-11-13T10:03:24Z</date>
+	<date>2018-05-02T11:04:13Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>Secure Input</key>
+	<true/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>TabStyle</key>
 	<integer>0</integer>
 	<key>TabViewType</key>
 	<integer>1</integer>
+	<key>TmuxUsesDedicatedProfile</key>
+	<true/>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1511945600</real>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>findMode_iTerm</key>
